@@ -1,0 +1,2 @@
+# This will make terraform fail unless changed to 1.6.1
+terraform 1.6.0
