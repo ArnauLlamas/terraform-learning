@@ -1,3 +1,9 @@
+# https://developer.hashicorp.com/terraform/language/resources (Meta-Arguments bullet point)
+
+# Although there are more meta-arguments than the ones exposed here, these are the most common
+# and easy to use and understand. It is recommended to understand well all other meta-arguments
+# before introducing them into production systems
+
 provider "aws" {
   region = "eu-west-1"
 }

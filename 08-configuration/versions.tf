@@ -1,5 +1,6 @@
-# The `terraform` block configures both terraform's binary and provider's
+# The `terraform` block can configure both terraform's binary and provider's
 # versions restrictions and where the terraform state is/will be stored
+# https://developer.hashicorp.com/terraform/language/settings
 terraform {
   required_version = ">= 1.6.1"
 
@@ -10,6 +11,9 @@ terraform {
     }
   }
 }
+
+# Provider configuration
+# https://developer.hashicorp.com/terraform/language/providers
 
 # Provider blocks allow setting provider's configuration
 provider "aws" {
@@ -24,6 +28,10 @@ provider "aws" {
   alias  = "ireland"
 }
 
+
+# Backend configuration
+# https://developer.hashicorp.com/terraform/language/settings/backends/configuration
+
 terraform {
   # Backend blocks allow configuring where and how the Terraform state
   # is stored, by default is localhost
@@ -32,6 +40,5 @@ terraform {
   }
 }
 # Although backend blocks are actually part of the terraform block, it is 
-# quite common to separate them for readability. All backend configurations are
-# listed here: https://developer.hashicorp.com/terraform/language/settings/backends/configuration
+# quite common to separate them for readability.
 # One of the most common ones is S3: https://developer.hashicorp.com/terraform/language/settings/backends/s3

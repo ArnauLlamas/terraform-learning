@@ -45,7 +45,3 @@ If you are having a hard time understanding the previous contexts, imagine these
 Unfortunately there is no real analogy with Nodejs to Terraform's state file as it is quite unique to it, by now just understand that it is not "just another lock" file. It is the heart of Terraform and what makes all its flow work as it is supposed to. 
 
 Let's imagine an scenario, imagine that you own a Spotify Playlist and you share its ownership with other people. With time, other owner may change songs in this playlist, drifting away from the original playlist. With Terraform, you can create the playlist with all your favourite songs, all this information will be stored into the State file, so if anyone modifies or even deletes the list, Terraform is able to know all the differences between your manifests, Spotify and the State file and reconstruct the desired state, specified in the manifests, by performing only the necessary actions and not a whole reconstruction from 0. And in case you wonder, yes, you can create [Spotify playlists](https://registry.terraform.io/providers/conradludgate/spotify/latest/docs/resources/playlist) with Terraform.
-
-
-
-
