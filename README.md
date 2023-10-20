@@ -11,7 +11,7 @@ Along with Terraform, this repository assumes that you have all extra tools to e
   * This repo includes [ASDF](https://asdf-vm.com/) Tool Versions files, but [tfenv](https://github.com/tfutils/tfenv) should also do the trick
 
 
-## Official Links
+## Official Links
 List of official links:
 [Terraform download](https://developer.hashicorp.com/terraform/downloads)
 [Terraform documentation](https://developer.hashicorp.com/terraform)
