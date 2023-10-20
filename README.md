@@ -13,7 +13,7 @@ Along with Terraform, this repository assumes that you have all extra tools to e
 
 ## Official Links
 List of official links:
-[Terraform download](https://developer.hashicorp.com/terraform/downloads)
-[Terraform documentation](https://developer.hashicorp.com/terraform)
-[Terraform registry](https://registry.terraform.io/)
-[Terraform AWS Provider documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+* [Terraform download](https://developer.hashicorp.com/terraform/downloads)
+* [Terraform documentation](https://developer.hashicorp.com/terraform)
+* [Terraform registry](https://registry.terraform.io/)
+* [Terraform AWS Provider documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
