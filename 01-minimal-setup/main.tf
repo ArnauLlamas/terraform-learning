@@ -10,6 +10,6 @@ resource "aws_s3_bucket" "my_s3_bucket" {
   bucket = "my-bucket"
 
   tags = {
-    "Hello" = "World!"
+    "Hello" = "World"
   }
 }
