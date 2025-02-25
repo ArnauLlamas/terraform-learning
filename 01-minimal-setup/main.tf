@@ -6,7 +6,7 @@
 # Arguments required for every resource are specified in AWS Terraform Provider
 # documentation. https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
 
-resource "aws_s3_bucket" "my_s3_bucket" {
+resource "aws_s3_bucket" "my_first_bucket" {
   bucket = "my-bucket"
 
   tags = {
